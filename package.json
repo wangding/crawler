@@ -1,0 +1,28 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "爬虫",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangding/crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "axios",
+    "sequelize"
+  ],
+  "author": "wangding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangding/crawler/issues"
+  },
+  "homepage": "https://github.com/wangding/crawler#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "sequelize": "^6.3.3"
+  }
+}
