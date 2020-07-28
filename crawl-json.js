@@ -24,7 +24,7 @@ const axios = require('axios'),
       dalu = { areaid: 37, total: 23, name: 'dalu-' },
       oumei = { areaid: 52, total: 45, name: 'oumei-' }
 
-async function getList(page, areaid) {
+async function getPage(page, areaid) {
   body.pageindex = page
   body.areaid = areaid
 
@@ -38,7 +38,7 @@ async function getAreaData(area) {
 
   for(var i=1; i<=area.total; i++) {
     filename = path.join(__dirname, 'data', area.name + i + '.json')
-    data = JSON.stringify(await getList(i, area.areaid))
+    data = JSON.stringify(await getPage(i, area.areaid))
 
     fs.writeFileSync(filename, data)
   }

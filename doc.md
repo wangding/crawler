@@ -22,7 +22,7 @@ book
 - last_time   // LastUpdateTime
 - tags        // ======单页里有
 - summary     // ======单页里有
-- end         // Status（2-完结，1-连载）
+- end         // ======单页里有 Status（2-完结，1-连载）
 - author_id   // Author
 - area_id     // ======没有（搜索的时候可以加上区域条件）
 - is_top      // Star：5星就推荐（1-推荐，0-不推荐）
